@@ -9,7 +9,7 @@
     align-items: start;
   }
   
-  /* @for $i from 1 through 10 {
+  @for $i from 1 through 10 {
     .cards > div:nth-child(#{$i}) { animation-delay: $i * 0.1s; }
   }
   
@@ -66,4 +66,4 @@
     border-radius: unset
   }
   
-   */
+  

@@ -10,9 +10,6 @@ const Showexpand = (props) => {
           <i class="show-close fas fa-times" onClick={props.closePop} ></i>
           
           <div className='show-poster'>
-            <span className='show-poster-bg'>
-              <img src={props.Poster !== 'N/A' ? props.Poster : 'https://via.placeholder.com/163x240/111217/FFFFFF/?text=No%20Image'} alt={props.Title} />
-            </span>
             <span className='show-poster-main'>
               <img src={props.Poster !== 'N/A' ? props.Poster : 'https://via.placeholder.com/163x240/111217/FFFFFF/?text=No%20Image'} alt={props.Title} />
             </span>
