@@ -1,0 +1,69 @@
+.cards{
+    animation: poof .5s;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: minmax(min-content, max-content);
+    padding: 10px;
+    gap: 10px;
+    min-height: 68vh;
+    align-items: start;
+  }
+  
+  /* @for $i from 1 through 10 {
+    .cards > div:nth-child(#{$i}) { animation-delay: $i * 0.1s; }
+  }
+  
+  .card{
+    opacity: 0;
+    animation: poof .5s forwards;
+    overflow: hidden;
+    transition: all .3s ease;
+    box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.3);
+    &:hover{
+      img{
+        transform: scale(1.04);
+      }
+    }
+    img{
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      transition: all .3s ease;
+      &:hover{
+      }
+    }
+  }
+  
+  .pagination {
+    margin: 15px auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #fff ;
+    border-color: #fff ;
+    color: #56ab2f;
+  }
+  .pagination > li > a{
+    border: 1px solid #fff ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #fff ;
+    border-color: #fff;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #fff;
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+  
+   */
